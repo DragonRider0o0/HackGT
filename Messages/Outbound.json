@@ -1,0 +1,31 @@
+"SafetyNet": {
+	"Source": "Responder",
+    "Danger": {
+        "Name": "",
+        "Time": "",
+        "Location": {
+            "Latitude": "",
+            "Longitude": "",
+            "Address": {
+                "Number": "",
+                "Street": "",
+                "Suburb": "",
+                "City": ""
+            }
+        }
+    },
+    "Messages": [
+        "",
+        ""
+    ],
+    "SafeZones": [
+        {
+            "Latitude": "",
+            "Longitude": ""
+        },
+        {
+            "Latitude": "",
+            "Longitude": ""
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+"SafetyNet": {
+	"Source": "Victim",
+    "Group": {
+		?"Name": "",
+		"Phone": "",
+        "Number": 1,
+		"Injured": "Yes",
+		"Mobile": "No",
+        "Time": "",
+        "Location": {
+            "Latitude": "",
+            "Longitude": ""
+        }
+    }
+}
