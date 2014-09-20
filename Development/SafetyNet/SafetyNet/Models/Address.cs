@@ -6,14 +6,26 @@ using System.Text;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 
+using Newtonsoft.Json;
+
 namespace SafetyNet.Models
 {
-    class Address
+    public class Address
     {
+        [JsonIgnore]
         public int AddressId { get; set; }
-        string number { get; set; }
-        string street { get; set; }
-        string suburb { get; set; }
-        string city { get; set; }
+        public string number { get; set; }
+        public string street { get; set; }
+        public string suburb { get; set; }
+        public string city { get; set; }
+
+        public Address()
+        {
+            AddressId = 0;
+            number = "";
+            street = "";
+            suburb = "";
+            city = "";
+        }
     }
 }

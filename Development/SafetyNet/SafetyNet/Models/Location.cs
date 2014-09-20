@@ -6,13 +6,24 @@ using System.Text;
 using System.ComponentModel.DataAnnotations;
 using System.Globalization;
 
+using Newtonsoft.Json;
+
 namespace SafetyNet.Models
 {
-    class Location
+    public class Location
     {
+        [JsonIgnore]
         public int LocationId { get; set; }
-        string latitude { get; set; }
-        string longitude { get; set; }
-        Address address { get; set; }
+        public string latitude { get; set; }
+        public string longitude { get; set; }
+        public Address address { get; set; }
+
+        public Location()
+        {
+            LocationId = 0;
+            latitude = "";
+            longitude = "";
+            address = new Address();
+        }
     }
 }
