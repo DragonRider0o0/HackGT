@@ -1,0 +1,26 @@
+Personas
+
+The primary persona is Dan.
+
+3 types of personas: 
+
+	(1) Victims
+
+		Maria is a 25 year old graduate student.
+		She is an earthquake victim, and wants to let her family know she's ok.
+		However, she has limited mobility because she is injured and stuck.
+
+		Dan is a father who has a wife and two kids, ages 2 and 5.
+		He wants to get his family to a safe place during an earthquake in Southern California.
+
+
+	(2) Responders
+
+		James is with Red Cross Disaster Relief and needs to coordinate survivors and allocate
+		resources for rescue efforts
+
+	(3) Red Cross Adminimstration
+
+		Governor Brown needs a system to quickly notify victims and responders and quickly 
+		coordinate relief efforts.
+
