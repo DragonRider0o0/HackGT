@@ -141,6 +141,8 @@ body
 {
     top: 0px;
     height: 3em;
+    position: absolute;
+    display: inline-block;
 }
 
 #Content
@@ -150,6 +152,14 @@ body
 
  #Bottom 
 {
-     bottom: 0px;
+     bottom: 6em;
      height: 3em;
+     position: absolute;
+     display: inline-block;
 }
+
+ #MapImage
+ {
+    display: inline-block;
+    width: auto;
+ }
