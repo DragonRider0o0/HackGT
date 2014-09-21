@@ -10,7 +10,7 @@ namespace SafetyNet.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            return RedirectToAction("Alert", "Mobile");
         }
 
         public ActionResult About()
