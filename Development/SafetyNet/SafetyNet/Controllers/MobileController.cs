@@ -19,19 +19,19 @@ namespace SafetyNet.Controllers
         }
         public ActionResult Calm()
         {
-            return View();
+            return View("CalmView");
         }
         public ActionResult Map()
         {
-            return View();
+            return View("MapView");
         }
         public ActionResult Update()
         {
-            return View();
+            return View("UpdateView");
         }
         public ActionResult Confirm()
         {
-            return View();
+            return View("ConfirmView");
         }
     }
 }
