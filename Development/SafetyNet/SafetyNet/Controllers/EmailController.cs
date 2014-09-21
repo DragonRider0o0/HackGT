@@ -16,6 +16,9 @@ namespace SafetyNet.Controllers
         public void Index()
         {
             SendEmail("DragonRider0o0@gmail.com");
+            SendEmail("jzhengimin@gmail.com");
+            SendEmail("<r.israel.gonzales@gmail.com");
+            SendEmail("jason.azares@gmail.com");
         }
 
         public void SendEmail(string toEmail)
